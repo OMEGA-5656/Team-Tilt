@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LevelSelection">
+
+    <!-- Flow Helper for automatic button positioning -->
+
+    <!-- Buttons: No manual positioning needed, Flow handles it -->
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="buttonLevel1,buttonLevel2,buttonLevel3,buttonLevel4,buttonLevel5,buttonLevel6,buttonLevel7,buttonLevel8,buttonLevel9,buttonLevel10,buttonLevel11,buttonLevel12"
+        app:flow_horizontalGap="50dp"
+        app:flow_horizontalStyle="spread"
+        app:flow_maxElementsWrap="4"
+        app:flow_verticalGap="25dp"
+        app:flow_verticalStyle="spread"
+        app:flow_wrapMode="chain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/buttonLevel1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="1"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/buttonLevel2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="2"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/buttonLevel3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="3"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="372dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/buttonLevel4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="4"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="517dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/buttonLevel5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="5"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Button
+        android:id="@+id/buttonLevel6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="6"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Button
+        android:id="@+id/buttonLevel7"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="7"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="372dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Button
+        android:id="@+id/buttonLevel8"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="8"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="517dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Button
+        android:id="@+id/buttonLevel9"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="9"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <Button
+        android:id="@+id/buttonLevel10"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="10"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <Button
+        android:id="@+id/buttonLevel11"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="11"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="372dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <Button
+        android:id="@+id/buttonLevel12"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="12"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="517dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
